@@ -104,6 +104,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CommentsServiceTests\AddCommentToGameShould.cs" />
+    <Compile Include="Services\CommentsServiceTests\GetDetailsWithCommentsByNameShould.cs" />
+    <Compile Include="Services\GamesServiceTests\GetAGameByIdShould.cs" />
+    <Compile Include="Services\GamesServiceTests\GetAllGamesShould.cs" />
+    <Compile Include="Services\GamesServiceTests\GetDetailsWithCommentsShould.cs" />
+    <Compile Include="Services\GamesServiceTests\LikeGameShould.cs" />
+    <Compile Include="Services\UserServiceTests\AddReviewShould.cs" />
+    <Compile Include="Services\UserServiceTests\ChangeAvatarShould.cs" />
     <Compile Include="SlienGames.Data.Models.Tests\CommentTests\AuthorIdShould.cs" />
     <Compile Include="SlienGames.Data.Models.Tests\CommentTests\AuthorShould.cs" />
     <Compile Include="SlienGames.Data.Models.Tests\CommentTests\CommentType.cs" />
